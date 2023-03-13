@@ -22,9 +22,9 @@ UserQuietInstCmd=%UserQuietInstCmd%
 SourceFiles=SourceFiles
 [Strings]
 InstallPrompt=
-DisplayLicense=C:\Users\pastel-x64\Documents\my bsod tool\LICENSE.txt
+DisplayLicense=C:\BSOD\LICENSE.txt
 FinishMessage=
-TargetName=C:\Users\pastel-x64\Documents\my bsod tool\BSOD.exe
+TargetName=C:\BSOD\BSOD.exe
 FriendlyName=BSOD
 AppLaunched=cmd /c bsod.bat
 PostInstallCmd=<None>
@@ -32,6 +32,6 @@ AdminQuietInstCmd=
 UserQuietInstCmd=
 FILE0="bsod.bat"
 [SourceFiles]
-SourceFiles0=C:\Users\pastel-x64\Documents\my bsod tool\
+SourceFiles0=C:\BSOD
 [SourceFiles0]
 %FILE0%=
